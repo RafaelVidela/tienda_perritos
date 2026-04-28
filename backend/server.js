@@ -133,7 +133,7 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "ok", message: "Backend de tienda de perritos en ejecución." });
 });
 
-// Iniciar servidor
+// Iniciar servidor Rafael Videla
 app.listen(PORT, async () => {
   console.log(`Servidor backend escuchando en puerto ${PORT}`);
   await initDb();
